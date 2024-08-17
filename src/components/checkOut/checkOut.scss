@@ -1,0 +1,65 @@
+.checkOut{
+    background-color: var(--clr-violet-light);
+    color: white;
+    padding: 10px;
+
+    h1{
+        color: white;
+        text-align: center;
+    }
+
+    h4{
+        color: white;
+    }
+
+    .formCheckout{
+        input{
+            height: 30px;
+            width: 300px;
+            border: 1px solid transparent;
+            border-radius: 5px;
+            padding: 10px;
+        }
+
+        .name{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .cardDetails{
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .shippingDetails{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30px;
+
+            input{
+                margin-top: 30px;
+            }
+        }
+        .submit{
+            display: flex;
+            margin-top: 50px;
+            align-items: center;
+            justify-content: center;
+            button{
+                background-color: white;
+                color: black;
+                height: 40px;
+                width: 150px;
+                border: 1px solid transparent;
+                border-radius: 20px;
+                font-weight: 800;
+                font-size: 20px;
+            }
+        }
+    }
+}
